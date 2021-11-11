@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    
+    <!--  CABEÇA - CONFIGURAÇÕES -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Projeto Ifood</title>
+
+        <!-- RESET CSS -->
+        <link rel="stylesheet" type="text/css" href="./css/reset.css">
+
+        <!-- FONTES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- STYLE -->
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    </head>
+
+    <!-- CORPO - CONTEÚDO -->
+    <body>
+        
+        <!-- CABEÇALHO -->
+        <header class="cabecalho" id="idCabecalho">
+
+            <div class="container">
+
+                <div class="cabecalho_logoIfood">
+                    <figure>
+                        <img src="./img/logo.png" alt="Logo Ifood">
+                        <figcaption>Logo</figcaption>
+                    </figure>
+                </div>
+
+                <div class="cabecalho_restaurante">
+                    <div class="cabecalho_fundoImagem">
+                        <img src="./img/restaurante.png" alt="Restaurante">
+                    </div>
+                    <p>Restaurante</p>
+                </div>
+
+            </div>
+
+        </header>
+
+        <main>
+
+            <!-- SEÇÃO INFORMAÇÕES DO RESTAURANTE -->
+            <section class="secaoInfoRestaurante">
+               
+                <div class="container">
+                    <!-- INFORMAÇÕES DO RESTAURANTE -->
+                    <div class="secaoInfoRestaurante_descricao">
+                        <figure class="secaoInfoRestaurante_logoRestaurante">
+                            <img src="./img/logo-kenzie.png" alt="Kenzie Foods">
+                            <figcaption>Restaurante Kenzie Foods</figcaption>
+                        </figure>
+                        <h1 class="secaoInfoRestaurante_nomeRestaurante">Kenzie Foods</h1>
+                    </div>
+
+                    <!-- CAIXA DE BUSCA -->
+                    <div class="secaoInfoRestaurante_pesquisar">
+                        <button>
+                            <img src="./img/lupa.png" alt="">
+                        </button>
+                        <input type="text" placeholder="Buscar no cardápio">
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- SEÇÃO PRATOS EM DESTAQUES -->
+            <section class="secaoPratosDestaque">
+                <div class="container">
+                    <h2 class="secaoPratosDestaque_titulo">Destaque</h2>
+                    
+                    <!-- LISTA DE PRATOS EM DESTAQUE -->
+                    <ul class="secaoPratosDestaque_listaPratos">
+                    </ul>
+                </div>
+            </section>
+
+            <div class="conteudoPrincipal">
+                <div class="container">
+                    <!-- SEÇÃO SOBREMESAS -->
+                    <section class="secaoSobremesas">
+                        <h2 class="secaoSobremesas_titulo">Sobremesas</h2>
+                        <ul class="secaoSobremesas_listaSobremesas">
+                       
+                        </ul>
+                    </section>
+
+                    <!-- SEÇÃO CARRINHO -->
+                    <section class="secaoCarrinho">
+                        <h2 class="secaoCarrinho_titulo">Carrinho</h2>
+
+                        <div class="secaoCarrinho_conteudo">
+                            <!-- LISTA DE ITENS NO CARRINHO -->
+                            <ul class="secaoCarrinho_listaItens">
+                              
+                            </ul>
+
+                            <!-- TOTAL -->
+                            <div class="secaoCarrinho_total">
+                                <p>Total</p>
+                                <span>R$ 0,00</span>
+                            </div>
+
+                            <div class="secaoCarrinho_formaPagamento">
+                                <button>Escolher forma de pagamento</button>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+
+        </main>
+
+        <script src="./js/script.js"></script>
+    </body>
+
+</html>
+
